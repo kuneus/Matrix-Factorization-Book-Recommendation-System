@@ -14,10 +14,10 @@ This recommendation system is a Python-based application running in Google Colab
 2.	Click the following link to open the notebook or paste it into your browser:  https://colab.research.google.com/drive/1w_u59ZLrNhSKKFYgIc7NlyHs2MGXXpPj?usp=sharing 
 3.	If you are not already signed in to your Google account, sign in at the top right.
 4.	At the top menu bar, click the dropdown option ‘Runtime,’ then click ‘Run all.’ 
-<img width="318" alt="image" src="https://github.com/user-attachments/assets/a3243fb4-6080-4c48-be2e-b256ba00f5b8" />
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/a3243fb4-6080-4c48-be2e-b256ba00f5b8" />
 
 6.	A warning message will appear indicating that Google did not author this notebook. Click ‘Run anyway’. 
-<img width="283" alt="image" src="https://github.com/user-attachments/assets/c4262c58-8c6d-486c-a5e7-ea92b662de2e" />
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/c4262c58-8c6d-486c-a5e7-ea92b662de2e" />
 
 8.	This may take a few minutes; wait until all cells have run. 
 9.	After all the cells have run, the user interface will be loaded at the bottom of the page. Go to the bottom.
@@ -25,3 +25,4 @@ This recommendation system is a Python-based application running in Google Colab
 11.	Once a valid ID has been entered, enter another integer for the desired number of recommendations. Try inputting 10 to get a top 10 book recommendation.
 12.	Once the book recommendations have been returned, it will return to the initial input screen for user ID—input ‘q’ to exit the program.  
 
+![](https://github.com/kuneus/gif-repo/blob/main/c964-book-recommendation-system/c964-project-demo.gif)
