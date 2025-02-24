@@ -5,7 +5,14 @@ This notebook is part of the submission for WGU's C964 - Computer Science Capsto
 
 Matrix factorization is an algorithm used in recommendation systems to reduce large user-item interaction matrices into smaller components that reveal hidden patterns. In this case, the user-item matrix has the users as rows, book titles as columns, and the table values as user ratings.
 
-For this model, I used a specific type of matrix factorization called singular value decompression (SVD). This technique decomposes the user-item matrix into smaller matrices, capturing the most essential relationships between users and items. By reducing the matrix's dimensionality, SVD can generate highly accurate recommendations.
+For this model, I used a specific type of matrix factorization called singular value decomposition (SVD). This technique decomposes the user-item matrix into smaller matrices, capturing the most essential relationships between users and items. By reducing the matrix's dimensionality, SVD can generate highly accurate recommendations.
+
+# Features
+* No installation necessary.
+* Search up to 400,000 user IDs.
+* Generate top N book recommendations.
+* Up to ~94% predictive accuracy.
+* Low predictive error rate below 1.0 on a 1-5 rating scale.
 
 # Documentation
 See the ![wiki](https://github.com/kuneus/Matrix-Factorization-Book-Recommendation-System/wiki) for documentation detailing the following sections:
@@ -14,7 +21,6 @@ See the ![wiki](https://github.com/kuneus/Matrix-Factorization-Book-Recommendati
 3. Machine Learning Solution
 4. Model Evaluation
 5. References
-
 
 # User Guide
 This recommendation system is a Python-based application running in Google Colab, a cloud-based Jupyter Notebook environment. This means no local installation is required to start executing the application. Follow the steps below to run the application and begin generating book recommendations.
